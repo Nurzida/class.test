@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between text and image */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    flex: 1; /* Takes equal space */
+    margin: 0;
+}
+
+.text {
+    text-align: left;
+    flex: 2; /* More space for the text */
+    margin: 0 20px;
+}
+
+.image {
+    flex: 1; /* Space for image */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
